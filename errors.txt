@@ -9,7 +9,14 @@ Available platform plugins are: xcb, eglfs, linuxfb, minimal, minimalegl, offscr
 
 Process ended with exit code -6.
 
-solutions
+###
+Solution
+run the .py directly in the commond promt.
+e.g.
+python3 dir/xx.py
+
+###
+Solutions tried
 
 uninstall:
 pip uninstall opencv-python
