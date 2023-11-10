@@ -11,6 +11,21 @@ Process ended with exit code -6.
 
 solutions
 
+uninstall:
+pip uninstall opencv-python
+pip3 uninstall opencv-python
+sudo apt remove python-opencv
+
+
+downgraded opencv-python 4.3.0.38 to 4.3.0.36.
+
+$ pip uninstall opencv-python
+$ pip install opencv-python==4.3.0.36
+$ pip list|grep opencv-python
+opencv-python        4.3.0.36
+
+or
+
 sudo pip uninstall opencv-python
 sudo pip install opencv-python==4.1.2.30
 or
@@ -20,3 +35,12 @@ sudo pip uninstall opencv-python
 sudo apt-get install libopencv-dev python-opencv
 sudo apt-get install libqt5x11extras5
 sudo apt-get remove libqt5x11extras5
+
+or
+sudo apt install libopencv-dev python3-opencv
+
+or
+
+pip3 install opencv-python==4.1.1.26
+pip install opencv-python==4.2.0.34
+pip3 install opencv-python==4.3.0.36
